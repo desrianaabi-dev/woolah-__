@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pemesanan - Woolah</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+
+    <h1 class="logo">Woolah</h1>
+
+     <label for="menu-toggle" class="menu-icon">
+            <img src="img/menu.png">
+    </label>
+         <input type="checkbox" id="menu-toggle">
+    
+        <nav class="menu-list">
+            <a href="index.html">beranda</a>
+            <a href="tentang.html">tentang kami</a>
+            <a href="order.html">order</a>
+            <a href="produk.html">produk</a>
+            <a href="review.html">review</a>
+            <a href="kontak.html">kontak</a>
+        </nav>
+    
+        <div class="header-icons">
+            <a href="cart.html">
+                <img src="img/troli.jpg" alt="Cart" class="icon">
+        </a>
+            </a>
+            <a href="wishlist.html">
+                <img src="img/icon love.png" alt="Wishlist" class="icon">
+            </a>
+        </div>
+</header>
+
+<section class="about">
+    <h2>Form Pemesanan Woolah</h2>
+    <p>Isi data berikut untuk melakukan pemesanan buket bunga rajut Woolah.</p>
+</section>
+
+<form action="#" method="post">
+
+    <label>Nama Pembeli</label>
+    <input type="text" placeholder="Nama lengkap Anda" required>
+
+    <label>Nomor WhatsApp</label>
+    <input type="text" placeholder="Nomor WA aktif" required>
+
+    <label>Pilih Produk</label>
+    <select required>
+        <option value="">-- Pilih Produk --</option>
+        <option value="Buket Rajut Mawar">Buket Rajut Mawar</option>
+        <option value="Buket Rajut Tulip">Buket Rajut Tulip</option>
+        <option value="Buket Mini Random">Buket Mini Random</option>
+        <option value="Custom Buket">Custom Buket (Tulis permintaan)</option><br>
+    </select>
+
+    <label>Alamat Lengkap</label>
+    <textarea rows="3" placeholder="Tulis alamat lengkap pengiriman" required></textarea>
+
+    <label>Catatan Tambahan</label>
+    <textarea rows="3" placeholder="Warna, model, kartu ucapan, dll..."></textarea>
+
+    <button type="submit">Kirim Pesanan</button>
+</form>
+
+<footer>
+    &copy; 2025 Woolah Marketplace
+</footer>
+
+</body>
+</html>
